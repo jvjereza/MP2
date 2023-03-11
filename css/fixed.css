@@ -74,16 +74,5 @@ margin-right: 0px!important;
 }
 
 
-#success_message{ display: none;}
 
-.container {
-background: #fff;
-	width: 1200px;
-	max-width: 100%;
-	box-sizing: border-box;
-	padding: 25px;
-	margin: 8% auto 0;
-	position: relative;
-	
-	
-}
+
