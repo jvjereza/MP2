@@ -83,11 +83,12 @@ button:focus {
 button.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
+	transition: 0.5s;
 }
 button.ghost:hover {
   background-color: #131416;
   border: #131416
-  transition: 0.5s;
+  
 }
 
 form {
