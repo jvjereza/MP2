@@ -1,16 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
 
 * {
 	box-sizing: border-box;
 }
 
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	background: rgba(0, 0, 0, 0,6) !important;
+	letter-spacing: .1rem;
+	height: 73px;
+}
+.navbar-brand img {
+	height: 4.5rem;
+}
 body {
 	background: #f6f5f7;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
+	flex-direction: column;	
 	height: 200vh;
 	margin: -20px 0 50px;
 }
@@ -79,6 +89,7 @@ button.ghost:hover {
   border: #131416
   transition: 0.5s;
 }
+
 form {
 	background-color: #FFFFFF;
 	display: flex;
